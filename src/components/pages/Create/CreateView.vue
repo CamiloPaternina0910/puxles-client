@@ -52,7 +52,7 @@ export default {
 
             <div class="row justify-content-center">
 
-                <div class="mt-4 border col-6 p-3 row justify-content-center shadow">
+                <div class="mt-4 border col-12 col-lg-6 p-3 row justify-content-center shadow">
 
                     <h3 class="col-10">Create a product</h3>
                     <p class="col-10">Puxles form to add new products to the database</p>

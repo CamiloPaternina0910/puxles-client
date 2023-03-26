@@ -53,6 +53,7 @@ export default {
         async searchProductoByName(name){
             const { data, currencyPage, totalElements, totalPages } = await productService.getProductsByName(name+ " ");
             this.products = data
+            console.log(data)
             this.currencyPage = currencyPage;
             this.totalElements = totalElements;
             this.totalPages = totalPages;

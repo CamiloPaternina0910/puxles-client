@@ -20,18 +20,18 @@ export default {
                         <h5 class="text-uppercase mb-4 pb-1">Search something</h5>
 
                         <div class="form-outline form-white mb-4">
-                            <input type="text" id="formControlLg" class="form-control form-control-lg" />
-                            <label class="form-label" for="formControlLg">Search</label>
+                            <input placeholder="Search anything about puxles" type="text" id="formControlLg" class="form-control form-control-lg" />
+                            <button class="btn btn-primary mt-1" for="formControlLg">Search</button>
                         </div>
 
                         <ul class="fa-ul" style="margin-left: 1.65em;">
                             <li class="mb-3">
-                                <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">New York, NY 10012,
-                                    US</span>
+                                <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">Bogotá, BG 10012,
+                                    COL</span>
                             </li>
                             <li class="mb-3">
                                 <span class="fa-li"><i class="fas fa-envelope"></i></span><span
-                                    class="ms-2">info@example.com</span>
+                                    class="ms-2">info@puxles.com</span>
                             </li>
                             <li class="mb-3">
                                 <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">+ 01 234 567

@@ -33,9 +33,9 @@ export default {
             <div class="container-fluid m-0">
                 <div class="row justify-content-center col-12  ">
 
-                    <a class="navbar-brand text-center" href="/">Puxles</a>
+                    <a class="navbar-brand text-center col-12 m-0 p-0" href="/">Puxles</a>
 
-                    <ul class="navbar-nav mb-2 mb-lg-0 col-12 m-auto justify-content-center">
+                    <ul class="navbar-nav mb-2 mb-lg-0 col-lg-12 col-3 m-auto justify-content-center">
                         <li class="nav-item m-2" style="display: inline-block;">
                             <a v-bind:class="[isCreate ? 'active' : '', 'nav-link']" href="/product/create"
                                 id="create">Create</a>
@@ -75,6 +75,7 @@ export default {
 
 .nav-item:hover,
 .active {
+    margin: 2px;
     font-size: 35px;
 }
 </style>
