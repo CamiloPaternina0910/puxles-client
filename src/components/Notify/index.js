@@ -1,6 +1,7 @@
 import { useToast } from "vue-toastification";
 
 const toast = useToast();
+
 const notify = {
     notifyError: (err) => {
         toast.error(err);

@@ -22,7 +22,7 @@ export default {
                 nofify.notifyError("Product name is required");
                 err = true;
             }
-            if (price == null || price == 'undefined' || new String(price).trim().length == 0) {
+            if (price == null || new String(price).trim().length == 0) {
                 nofify.notifyError("Price is required");
                 err = true;
             }
